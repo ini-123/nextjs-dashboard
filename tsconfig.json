@@ -18,11 +18,7 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    // removed baseUrl and paths for TS 7 compatibility
   },
   "include": [
     "next-env.d.ts",
